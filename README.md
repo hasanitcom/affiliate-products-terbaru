@@ -1,27 +1,73 @@
 # Website Affiliate Produk
 
-Website sederhana untuk menampilkan produk affiliate yang bisa kamu tambah sendiri lewat form.
+Website ini adalah situs sederhana untuk menampilkan produk affiliate yang bisa kamu tambah, hapus, dan simpan langsung di browser (localStorage).
+
+## Fitur
+- Tambah produk affiliate dengan gambar, nama, deskripsi, dan link beli.
+- Daftar produk disimpan di browser sehingga data tetap ada walau refresh halaman.
+- Hapus produk yang sudah tidak ingin ditampilkan.
+- Tampilan responsif dengan Bootstrap.
 
 ## Cara Pakai
 
-1. Buka file `index.html` di browser (klik 2x atau drag ke browser).  
-2. Isi form "Tambah Produk Baru" dengan:  
-   - URL gambar produk (contoh: https://example.com/image.jpg)  
-   - Nama produk  
-   - Deskripsi singkat produk  
-   - Link affiliate (Shopee, Tokopedia, dll)  
-3. Klik tombol "Tambah Produk". Produk akan langsung muncul di bawah form.  
-4. Data produk akan tersimpan di browser kamu (localStorage), jadi tetap ada walau refresh halaman.  
-5. Untuk menghapus produk, klik tombol "Hapus" pada kartu produk.
+1. Buka file `index.html` di browser (atau upload ke hosting seperti GitHub Pages).
+2. Isi form **Tambah Produk Baru** dengan data produk affiliate kamu.
+3. Klik tombol **Tambah Produk** untuk menyimpan dan menampilkan produk di halaman.
+4. Produk yang ditambahkan akan tersimpan di browser kamu secara otomatis.
+5. Untuk menghapus produk, klik tombol **Hapus** di bawah produk yang diinginkan.
 
-## Hosting Online (Optional)
+## Cara Upload ke GitHub Pages
 
-Kamu bisa upload file ini ke hosting gratis seperti [GitHub Pages](https://pages.github.com/) supaya website bisa diakses dari mana saja.
+1. Buat akun GitHub di [github.com](https://github.com/) (jika belum punya).
+2. Buat repository baru (misal: `affiliate-products`).
+3. Upload file `index.html` ke repository tersebut.
+4. Di menu **Settings** repository, cari bagian **Pages**.
+5. Pilih branch `main` (atau `master`) dan folder `/root` sebagai source GitHub Pages.
+6. Klik **Save** dan tunggu beberapa saat.
+7. Website kamu akan tersedia di URL seperti:  
+   `https://username.github.io/affiliate-products/`
 
-- Buat repository GitHub baru  
-- Upload file `index.html`  
-- Aktifkan GitHub Pages pada branch utama  
-- Buka link yang diberikan GitHub Pages
+## Catatan
+- Website ini menyimpan data produk di localStorage browser, jadi jika membersihkan cache browser, data produk akan hilang.
+- Untuk penyimpanan produk yang permanen dan dapat diakses dari perangkat lain, bisa dikembangkan dengan backend/database.
 
-Selamat mencoba! Kalau ingin versi dengan database online (Firebase), hubungi aku ya!
+---
 
+Selamat mencoba dan semoga sukses dengan website affiliate kamu! 🚀
+# Website Affiliate Produk
+
+Website ini adalah situs sederhana untuk menampilkan produk affiliate yang bisa kamu tambah, hapus, dan simpan langsung di browser (localStorage).
+
+## Fitur
+- Tambah produk affiliate dengan gambar, nama, deskripsi, dan link beli.
+- Daftar produk disimpan di browser sehingga data tetap ada walau refresh halaman.
+- Hapus produk yang sudah tidak ingin ditampilkan.
+- Tampilan responsif dengan Bootstrap.
+
+## Cara Pakai
+
+1. Buka file `index.html` di browser (atau upload ke hosting seperti GitHub Pages).
+2. Isi form **Tambah Produk Baru** dengan data produk affiliate kamu.
+3. Klik tombol **Tambah Produk** untuk menyimpan dan menampilkan produk di halaman.
+4. Produk yang ditambahkan akan tersimpan di browser kamu secara otomatis.
+5. Untuk menghapus produk, klik tombol **Hapus** di bawah produk yang diinginkan.
+
+## Cara Upload ke GitHub Pages
+
+1. Buat akun GitHub di [github.com](https://github.com/) (jika belum punya).
+2. Buat repository baru (misal: `affiliate-products`).
+3. Upload file `index.html` ke repository tersebut.
+4. Di menu **Settings** repository, cari bagian **Pages**.
+5. Pilih branch `main` (atau `master`) dan folder `/root` sebagai source GitHub Pages.
+6. Klik **Save** dan tunggu beberapa saat.
+7. Website kamu akan tersedia di URL seperti:  
+   `https://username.github.io/affiliate-products/`
+
+## Catatan
+- Website ini menyimpan data produk di localStorage browser, jadi jika membersihkan cache browser, data produk akan hilang.
+- Untuk penyimpanan produk yang permanen dan dapat diakses dari perangkat lain, bisa dikembangkan dengan backend/database.
+
+---
+
+Selamat mencoba dan semoga sukses dengan website affiliate kamu! 🚀
+v
